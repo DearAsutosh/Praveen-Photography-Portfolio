@@ -11,7 +11,7 @@ const Navbar = () => {
         <Link to="/">
           <img src={logo} alt="Praveen logo" className="h-20 w-20 invert" />
         </Link>
-        <div className="nav-elems flex gap-5 hidden">
+        <div className="nav-elems md:flex gap-5 hidden">
           <Link
             to="/"
             className="sml-font text-lg transition-all tracking-widest py-2"

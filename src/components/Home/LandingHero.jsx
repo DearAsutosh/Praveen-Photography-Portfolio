@@ -2,6 +2,8 @@ import profile_pic from "../../images/praveen-pic.png";
 import TrueFocus from "../ReactBits/TrueFocus";
 import ShinyText from "../ReactBits/ShinyText";
 import ScrollFloat from "../ReactBits/ScrollFloat";
+import React from "react";
+
 const LandingHero = () => {
   return (
     <>
@@ -29,7 +31,7 @@ const LandingHero = () => {
           className="text-xl"
         />
       </div>
-      <div className="sml-font text-2xl w-2/3 mt-52 text-center min-h-[600px] text-white">
+      <div className="sml-font text-2xl w-2/3 mt-52 text-center min-h-screen md:min-h-[600px] text-white">
         <ScrollFloat
           animationDuration={1}
           ease="back.inOut(2)"
