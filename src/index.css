@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Caveat';
+  src: url('./assets/fonts/Caveat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BluuNext';
+  src: url('./assets/fonts/BluuNext-Bold.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DMSans';
+  src: url('./assets/fonts/DMSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+.sml-font{
+    font-family: 'DMSans',serif;
+}
+.lg-font{
+  font-family: 'BluuNext', sans-serif;
+}
+
+body {
+  background: #000;
+}
