@@ -17,7 +17,7 @@ const CrossHairSection = () => {
       <Crosshair containerRef={containerRef} color="#ffffff" />
       <a href="/gallery" className="text-white lg-font hover:text-pink-600 inline text-7xl">Click to Visit Gallery !</a>
       <br />
-      <div className="text-3xl text-gray-500">(hover the text)</div>
+      <div className="caveat text-4xl text-gray-500 tracking-widest">( hover the text and see magic 🔮)</div>
     </div>
   );
 };

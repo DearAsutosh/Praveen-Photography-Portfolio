@@ -22,9 +22,13 @@
 }
 .sml-font{
     font-family: 'DMSans',serif;
-}
-.lg-font{
-  font-family: 'BluuNext', sans-serif;
+  }
+  .lg-font{
+    font-family: 'BluuNext', sans-serif;
+  }
+  .caveat{
+  font-family: 'Caveat';
+
 }
 
 body {

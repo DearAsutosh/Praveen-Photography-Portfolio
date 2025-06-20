@@ -27,15 +27,15 @@ const LandingHero = () => {
           text="Hover above to see Magic 🪄"
           disabled={false}
           speed={2}
-          className="text-xl"
+          className="text-2xl sml-font "
         />
       </div>
       <div className="sml-font text-2xl w-2/3 mt-52 text-center min-h-screen md:min-h-[600px] text-white">
         <ScrollFloat
           animationDuration={1}
           ease="back.inOut(2)"
-          scrollStart="top 90%" // Animation starts when top of element is near bottom of viewport
-          scrollEnd="bottom 60%" // Animation ends as element scrolls up
+          scrollStart="top 90%" 
+          scrollEnd="bottom 60%" 
           stagger={0.03}
         >
           I don’t take photos — I frame emotions. With every click, I aim to
