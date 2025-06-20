@@ -2,7 +2,6 @@ import profile_pic from "../../images/praveen-pic.png";
 import TrueFocus from "../ReactBits/TrueFocus";
 import ShinyText from "../ReactBits/ShinyText";
 import ScrollFloat from "../ReactBits/ScrollFloat";
-import React from "react";
 
 const LandingHero = () => {
   return (
