@@ -36,30 +36,30 @@ const SocialMediaSection = () => {
 
       {/* Main Content */}
       <div className="flex flex-col items-center justify-center h-full w-full gap-8">
-        <div className="logos flex justify-center gap-8">
+        <div className="icons flex justify-center gap-8">
           <a
-            href="#"
+            href="https://www.instagram.com/shots.by.praveen"
             target="_blank"
             className="transition-all invert hover:-translate-y-1"
           >
             <img src={instagram} alt="Instagram" className="h-10" />
           </a>
           <a
-            href="#"
+            href="https://youtube.com/@praveensw258"
             target="_blank"
             className="transition-all invert hover:-translate-y-1"
           >
             <img src={youtube} alt="YouTube" className="h-10" />
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/praveen-maheshwaran-277063225"
             target="_blank"
             className="transition-all invert hover:-translate-y-1"
           >
             <img src={linkedIn} alt="LinkedIn" className="h-10" />
           </a>
           <a
-            href="#"
+            href="https://medium.com/@praveensw258"
             target="_blank"
             className="transition-all invert hover:-translate-y-1"
           >

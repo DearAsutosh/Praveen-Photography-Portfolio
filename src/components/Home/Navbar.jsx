@@ -9,7 +9,7 @@ const Navbar = () => {
     <>
       <nav className="bg-black flex items-center justify-between text-white py-5 px-10 z-20 relative">
         <Link to="/">
-          <img src={logo} alt="Praveen logo" className="h-20 w-20 invert" />
+          <img src={logo} alt="Praveen logo" className="h-20 w-20" />
         </Link>
         <div className="nav-elems md:flex gap-5 hidden">
           <Link
@@ -20,7 +20,7 @@ const Navbar = () => {
               padding={60}
               disabled={false}
               magnetStrength={10}
-              innerClassName="px-4 py-2 rounded-lg hover:rounded-full text-white font-semibold "
+              innerClassName="px-4 py-2 rounded-lg  text-white font-semibold "
             >
               <StarBorder
                 as="button"
@@ -41,7 +41,7 @@ const Navbar = () => {
               padding={60}
               disabled={false}
               magnetStrength={10}
-              innerClassName="px-4 py-2 rounded-lg hover:rounded-full text-white font-semibold "
+              innerClassName="px-4 py-2  text-white font-semibold "
             >
               <StarBorder
                 as="button"
@@ -61,7 +61,7 @@ const Navbar = () => {
               padding={60}
               disabled={false}
               magnetStrength={10}
-              innerClassName="px-4 py-2 rounded-lg hover:rounded-full text-white font-semibold "
+              innerClassName="px-4 py-2 font-semibold "
             >
               <StarBorder
                 as="button"
@@ -81,7 +81,7 @@ const Navbar = () => {
               padding={60}
               disabled={false}
               magnetStrength={10}
-              innerClassName="px-4 py-2 rounded-lg hover:rounded-full text-white font-semibold "
+              innerClassName="px-4 py-2 font-semibold "
             >
               <StarBorder
                 as="button"
