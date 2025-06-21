@@ -1,13 +1,13 @@
 import React from "react";
 import Magnet from "../ReactBits/Magnet";
 import StarBorder from "../ReactBits/StarBorder";
-import logo from "../../images/logo.jpg";
+import logo from "../../assets/images/logo.jpg";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
-      <nav className="bg-black flex items-center justify-between text-white py-5 px-10">
+      <nav className="bg-black flex items-center justify-between text-white py-5 px-10 z-20 relative">
         <Link to="/">
           <img src={logo} alt="Praveen logo" className="h-20 w-20 invert" />
         </Link>

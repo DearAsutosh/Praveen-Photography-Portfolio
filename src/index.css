@@ -34,3 +34,6 @@
 body {
   background: #000;
 }
+::-webkit-scrollbar{
+  display: none;
+}
