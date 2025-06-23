@@ -10,6 +10,7 @@ const Gallery = () => {
         See it . Feel it . Remember it.
       </div>
      <GallerySection />
+     
     </>
   );
 };
