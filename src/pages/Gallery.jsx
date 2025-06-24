@@ -6,7 +6,7 @@ const Gallery = () => {
  
   return (
     <>
-      <div className="text-6xl text-white lg-font text-center">
+      <div className="text-6xl text-white lg-font text-center mt-52">
         See it . Feel it . Remember it.
       </div>
      <GallerySection />
